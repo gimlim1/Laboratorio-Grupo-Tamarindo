@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace OperacionesCalculadora.Especificaciones
 {
-    class Poligono
+    public class Poligono
     {
 
         /*  6.	Creen un wcf que reciba:
@@ -15,20 +15,13 @@ namespace OperacionesCalculadora.Especificaciones
   c.el tamaño de cada uno de ellos (como la figura es regular, todos los lados miden exactamente lo mismo, por lo que sólo se recibe un valor)
   Además, que devuelva el resultado de calcular ese perímetro o esa área. */
 
-        public bool  Validacionlados (double lados)
-        {
-            bool Validacion = false;
-            if (lados >= 5 && lados <= 16) {
-                Validacion = true;
-            }
-            return Validacion;
 
-        }
+        Validaciones.ValidarPoligono validar = new Validaciones.ValidarPoligono();
 
         public double ResolverPerimetro(double lados, double Lvalor)
         {
-
-            bool validacion = Validacionlados(lados);
+            
+            bool validacion = validar.Validacionlados(lados);
             if (validacion == true) {
                 return lados * Lvalor;
             }
@@ -39,7 +32,7 @@ namespace OperacionesCalculadora.Especificaciones
         public double ResolverArea(double lados, double Lvalor)
         {
 
-            bool validacion = Validacionlados(lados);
+            bool validacion = validar.Validacionlados(lados);
             if (validacion == true)
             {
                 double anguloC = (360 / lados);
