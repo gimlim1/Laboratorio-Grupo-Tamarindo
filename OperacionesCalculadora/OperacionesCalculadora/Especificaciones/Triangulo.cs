@@ -17,7 +17,7 @@ namespace OperacionesCalculadora
             if (Validar.Validar( lado1,  lado2,  lado3) == true)
             {
 
-                double semiperimetro = ResolverPerimetro(lado1, lado2, lado3);
+                double semiperimetro = ResolverPerimetro(lado1, lado2, lado3)/2;
                 return Math.Sqrt(semiperimetro * (semiperimetro - lado1) * (semiperimetro - lado2) * (semiperimetro - lado3));
             }
             return 0;
