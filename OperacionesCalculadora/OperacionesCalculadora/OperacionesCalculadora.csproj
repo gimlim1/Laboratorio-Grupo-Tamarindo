@@ -41,6 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Acciones\ResolverCuadraticos.cs" />
+    <Compile Include="Acciones\ResolverTriangulo.cs" />
     <Compile Include="Especificaciones\Poligono.cs" />
     <Compile Include="Especificaciones\Trapecio.cs" />
     <Compile Include="Especificaciones\Cuadrado.cs" />
@@ -50,10 +51,9 @@
     <Compile Include="Especificaciones\Rectangulo.cs" />
     <Compile Include="Especificaciones\Rombo.cs" />
     <Compile Include="Especificaciones\Romboide.cs" />
+    <Compile Include="Validaciones\ValidarTriangulo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Validaciones\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

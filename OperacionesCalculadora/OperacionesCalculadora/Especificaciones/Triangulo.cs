@@ -4,15 +4,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OperacionesCalculadora.Especificaciones
+namespace OperacionesCalculadora
 {
     public class Triangulo
     {
 
+        Validaciones.ValidarTriangulo Validar = new Validaciones.ValidarTriangulo();
+
         public double ResolverArea(double lado1, double lado2, double lado3)
         {
 
-            if (ValidarTriangulo( lado1,  lado2,  lado3) == true)
+            if (Validar.Validar( lado1,  lado2,  lado3) == true)
             {
 
                 double semiperimetro = ResolverPerimetro(lado1, lado2, lado3);
@@ -23,27 +25,12 @@ namespace OperacionesCalculadora.Especificaciones
 
         public double ResolverPerimetro(double lado1, double lado2, double lado3)
         {
-
-            if (ValidarTriangulo(lado1, lado2, lado3) == true)
+            if (Validar.Validar(lado1, lado2, lado3) == true)
             {
                 return lado1 + lado2 + lado3;
             }
             return 0;
         }
-
-        public bool ValidarTriangulo(double lado1, double lado2, double lado3) {
-
-            bool validacion = false;
-
-            if (((lado1 + lado2) > lado3) && ((lado1 + lado3) > lado2) && ((lado2 + lado3) > lado1))
-            {
-                validacion = true;
-            }
-
-            return validacion;
-
-        }
-
 
     }
 }
