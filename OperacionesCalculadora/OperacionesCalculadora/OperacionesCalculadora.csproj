@@ -40,6 +40,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Acciones\ResolverCuadraticos.cs" />
     <Compile Include="Especificaciones\Trapecio.cs" />
     <Compile Include="Especificaciones\Cuadrado.cs" />
     <Compile Include="Especificaciones\Paralelogramo.cs" />
@@ -49,7 +50,6 @@
     <Compile Include="Especificaciones\Romboide.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Acciones\" />
     <Folder Include="Validaciones\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

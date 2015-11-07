@@ -10,11 +10,13 @@ namespace WcfCuadrilatero
 {
     // NOTE: You can use the "Rename" command on the "Refactor" menu to change the interface name "IService1" in both code and config file together.
     [ServiceContract]
-    public interface IService1
+    public interface ResolverCuadratico
     {
 
         [OperationContract]
         string GetData(int value);
+        [OperationContract]
+        double Resolver(double lado1, double lado2, double altura, int figura, string Operacion);
 
         [OperationContract]
         CompositeType GetDataUsingDataContract(CompositeType composite);

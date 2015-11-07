@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="WcfCuadrilatero.Service1" CodeBehind="ResolverCuadratico.svc.cs" %>
