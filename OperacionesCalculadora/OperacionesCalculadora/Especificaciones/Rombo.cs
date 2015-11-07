@@ -8,11 +8,14 @@ namespace OperacionesCalculadora
 {
     public class Rombo
     {
-        public void ResolverArea(double diagonal,double diagonal2,double lado,ref double resultado){
 
-            ref resultado = diagonal * diagonal2 / 2; 
+        public double ResolverArea(double lado1,double lado2){
+            return lado1 * lado2 / 2; 
         }
 
+        public double ResolverPerimetro(double altura)
+        {
+            return 4 * altura;
 
-    }
+        }
 }

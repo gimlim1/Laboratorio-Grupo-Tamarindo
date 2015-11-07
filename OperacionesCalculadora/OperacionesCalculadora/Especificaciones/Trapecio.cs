@@ -6,7 +6,17 @@ using System.Threading.Tasks;
 
 namespace OperacionesCalculadora
 {
-    class Trapecio
+    public class Trapecio
     {
+        public double ResolverArea(double lado1, double lado2,double area)
+        {
+            return lado1 * lado2 / 2;
+        }
+
+        public double ResolverPerimetro(double altura)
+        {
+            return 4 * altura;
+
+        }
     }
 }
