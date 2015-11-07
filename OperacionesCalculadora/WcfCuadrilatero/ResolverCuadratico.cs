@@ -13,13 +13,10 @@ namespace WcfCuadrilatero
     public interface ResolverCuadratico
     {
 
-        [OperationContract]
-        string GetData(int value);
+
         [OperationContract]
         double Resolver(double lado1, double lado2, double altura, int figura, string Operacion);
 
-        [OperationContract]
-        CompositeType GetDataUsingDataContract(CompositeType composite);
 
         // TODO: Add your service operations here
     }

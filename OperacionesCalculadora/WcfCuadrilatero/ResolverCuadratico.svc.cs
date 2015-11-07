@@ -17,22 +17,6 @@ namespace WcfCuadrilatero
             OperacionesCalculadora.Acciones.ResolverCuadraticos resolver = new OperacionesCalculadora.Acciones.ResolverCuadraticos();
             return resolver.Resolver(lado1, lado2, altura, figura, Operacion);
         }
-        public string GetData(int value)
-        {
-            return string.Format("You entered: {0}", value);
-        }
 
-        public CompositeType GetDataUsingDataContract(CompositeType composite)
-        {
-            if (composite == null)
-            {
-                throw new ArgumentNullException("composite");
-            }
-            if (composite.BoolValue)
-            {
-                composite.StringValue += "Suffix";
-            }
-            return composite;
-        }
     }
 }
