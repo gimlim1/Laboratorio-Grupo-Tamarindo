@@ -7,8 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OperacionesCalculadora", "O
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfCuadrilatero", "WcfCuadrilatero\WcfCuadrilatero.csproj", "{730BBE8C-A10D-42D0-927F-A0FB866138C9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCFTriangulo1", "WCFTriangulo1\WCFTriangulo1.csproj", "{031D3989-0FE7-42FC-A204-B97BBDA4F293}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,10 +21,6 @@ Global
 		{730BBE8C-A10D-42D0-927F-A0FB866138C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{730BBE8C-A10D-42D0-927F-A0FB866138C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{730BBE8C-A10D-42D0-927F-A0FB866138C9}.Release|Any CPU.Build.0 = Release|Any CPU
-		{031D3989-0FE7-42FC-A204-B97BBDA4F293}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{031D3989-0FE7-42FC-A204-B97BBDA4F293}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{031D3989-0FE7-42FC-A204-B97BBDA4F293}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{031D3989-0FE7-42FC-A204-B97BBDA4F293}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
