@@ -8,5 +8,7 @@ namespace OperacionesCalculadora
 {
     class Cuadrado
     {
+
+
     }
 }
