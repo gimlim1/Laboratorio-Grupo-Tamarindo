@@ -48,6 +48,10 @@
     <Compile Include="Especificaciones\Rombo.cs" />
     <Compile Include="Especificaciones\Romboide.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Acciones\" />
+    <Folder Include="Validaciones\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
