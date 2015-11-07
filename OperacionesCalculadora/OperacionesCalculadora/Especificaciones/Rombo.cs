@@ -15,7 +15,7 @@ namespace OperacionesCalculadora
 
         public double ResolverPerimetro(double altura)
         {
-            return 4 * altura;
+            return  4 * altura;
 
         }
 }
