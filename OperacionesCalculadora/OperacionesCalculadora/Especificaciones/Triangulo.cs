@@ -13,12 +13,17 @@ namespace OperacionesCalculadora.Especificaciones
         {
             double semiperimetro = ResolverPerimetro(lado1, lado2, lado3);
             return Math.Sqrt(semiperimetro * (semiperimetro-lado1) * (semiperimetro-lado2) * (semiperimetro-lado3));
-
         }
 
         public double ResolverPerimetro(double lado1, double lado2, double lado3)
         {
             return lado1 + lado2 + lado3;
+        }
+
+        public bool validarTriangulo(double lado1, double lado2, double lado3)
+        {
+
+            return true;
         }
 
 
