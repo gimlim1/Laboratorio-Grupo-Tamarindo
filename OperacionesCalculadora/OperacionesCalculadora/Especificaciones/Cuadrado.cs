@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace OperacionesCalculadora
 {
-    class Cuadrado
+    public class Cuadrado
     {
 
         public double ResolverArea(double lado1)

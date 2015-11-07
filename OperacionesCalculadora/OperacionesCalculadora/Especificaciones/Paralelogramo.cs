@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace OperacionesCalculadora
 {
-    class Paralelogramo
+    public class Paralelogramo
     {
 
         public double ResolverArea(double lado1, double altura)

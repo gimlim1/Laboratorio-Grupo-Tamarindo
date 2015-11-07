@@ -8,9 +8,9 @@ namespace OperacionesCalculadora
 {
     public class Trapecio
     {
-        public double ResolverArea(double lado1, double lado2,double area)
+        public double ResolverArea(double lado1, double lado2, double altura)
         {
-            return lado1 * lado2 / 2;
+            return (lado1 + lado2)*altura / 2;
         }
 
         public double ResolverPerimetro(double altura)

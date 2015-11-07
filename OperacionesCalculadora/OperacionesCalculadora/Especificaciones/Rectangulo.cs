@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace OperacionesCalculadora
 {
-    class Rectangulo
+    public class Rectangulo
     {
 
 
