@@ -15,16 +15,41 @@ namespace OperacionesCalculadora.Especificaciones
   c.el tamaño de cada uno de ellos (como la figura es regular, todos los lados miden exactamente lo mismo, por lo que sólo se recibe un valor)
   Además, que devuelva el resultado de calcular ese perímetro o esa área. */
 
-        public double ResolverArea(double lado)
+        public bool  Validacionlados (double lados)
         {
-            return lado1 * lado1;
+            bool Validacion = false;
+            if (lados >= 5 && lados <= 16) {
+                Validacion = true;
+            }
+            return Validacion;
+
         }
 
-        public double ResolverPerimetro(double lado1)
+        public double ResolverPerimetro(double lados, double Lvalor)
         {
 
-            return lado1 * 4;
+            bool validacion = Validacionlados(lados);
+            if (validacion == true) {
+                return lados * Lvalor;
+            }
+            return 0;
+            
         }
+
+        public double ResolverArea(double lados, double Lvalor)
+        {
+
+            bool validacion = Validacionlados(lados);
+            if (validacion == true)
+            {
+                double anguloC = (360 / lados);
+                double apotema = Lvalor / (2 * Math.Tan(anguloC / 2));
+                return (ResolverPerimetro(lados, Lvalor)*apotema)/2;
+            }
+            return 0;
+
+        }
+
 
 
 
