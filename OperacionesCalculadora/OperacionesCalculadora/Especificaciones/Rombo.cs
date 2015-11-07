@@ -10,7 +10,7 @@ namespace OperacionesCalculadora
     {
         public void ResolverArea(double diagonal,double diagonal2,double lado,ref double resultado){
 
-            ref resultado = diagonal * diagonal2 / 2;
+            ref resultado = diagonal * diagonal2 / 2; 
         }
 
 
