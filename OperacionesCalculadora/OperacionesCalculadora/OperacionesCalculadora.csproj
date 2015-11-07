@@ -40,13 +40,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Trapecio.cs" />
-    <Compile Include="Cuadrado.cs" />
-    <Compile Include="Paralelogramo.cs" />
+    <Compile Include="Especificaciones\Trapecio.cs" />
+    <Compile Include="Especificaciones\Cuadrado.cs" />
+    <Compile Include="Especificaciones\Paralelogramo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Rectangulo.cs" />
-    <Compile Include="Rombo.cs" />
-    <Compile Include="Romboide.cs" />
+    <Compile Include="Especificaciones\Rectangulo.cs" />
+    <Compile Include="Especificaciones\Rombo.cs" />
+    <Compile Include="Especificaciones\Romboide.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
