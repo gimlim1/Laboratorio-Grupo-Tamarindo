@@ -13,9 +13,9 @@ namespace OperacionesCalculadora
             return (lado1 + lado2)*altura / 2;
         }
 
-        public double ResolverPerimetro(double altura)
+        public double ResolverPerimetro(double lado1,double lado2)
         {
-            return 4 * altura;
+            return lado1 + (lado1 / 2) + 2 * (lado2);
 
         }
     }
