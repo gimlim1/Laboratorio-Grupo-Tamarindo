@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("WcfTriangulo")]
+[assembly: AssemblyTitle("WCFTriangulo")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("WcfTriangulo")]
+[assembly: AssemblyProduct("WCFTriangulo")]
 [assembly: AssemblyCopyright("Copyright ©  2015")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("d8d76d70-a84e-4542-ab9e-6b2237e60e51")]
+[assembly: Guid("3c73062f-979e-4f49-830e-786f51067a3c")]
 
 // Version information for an assembly consists of the following four values:
 //

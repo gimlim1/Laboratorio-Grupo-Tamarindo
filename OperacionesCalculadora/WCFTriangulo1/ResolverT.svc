@@ -1,1 +1,0 @@
-﻿<%@ ServiceHost Language="C#" Debug="true" Service="WCFTriangulo1.Service1" CodeBehind="ResolverT.svc.cs" %>
