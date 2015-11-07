@@ -41,6 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Acciones\ResolverCuadraticos.cs" />
+    <Compile Include="Especificaciones\Poligono.cs" />
     <Compile Include="Especificaciones\Trapecio.cs" />
     <Compile Include="Especificaciones\Cuadrado.cs" />
     <Compile Include="Especificaciones\Paralelogramo.cs" />
