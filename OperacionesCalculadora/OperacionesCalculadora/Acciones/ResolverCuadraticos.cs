@@ -18,7 +18,7 @@ namespace OperacionesCalculadora.Acciones
                     if (Operacion.Equals("P"))
                     {
                         return resolver.ResolverPerimetro(lado1, lado2);
-                    }
+                    }  
                     else
                     {
                         return resolver.ResolverArea(lado1, altura);
