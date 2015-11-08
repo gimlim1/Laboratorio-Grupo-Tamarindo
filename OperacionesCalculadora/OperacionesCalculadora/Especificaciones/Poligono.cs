@@ -35,8 +35,10 @@ namespace OperacionesCalculadora
             bool validacion = validar.Validacionlados(lados);
             if (validacion == true)
             {
-                double anguloC = (360 / lados);
-                double apotema = Lvalor / (2 * Math.Tan(anguloC / 2));
+                double anguloC = (360 / lados)/2;
+                const double DTR = Math.PI / 180.0;
+                double rad =Math.Tan(anguloC * DTR);
+                double apotema = Lvalor / (2 * rad);
                 return (ResolverPerimetro(lados, Lvalor)*apotema)/2;
             }
             return 0;

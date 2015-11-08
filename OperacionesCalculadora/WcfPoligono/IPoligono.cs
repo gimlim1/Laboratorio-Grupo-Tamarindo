@@ -14,7 +14,7 @@ namespace WcfPoligono
     {
 
         [OperationContract]
-
+        double Resolver(double lados, double Lvalor, string Operacion);
 
         // TODO: Add your service operations here
     }

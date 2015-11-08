@@ -9,6 +9,8 @@ namespace Pruebas_Automatizadas
         [TestMethod]
         public void TestMethod1()
         {
+            OperacionesCalculadora.Acciones.ResolverPoligono resolver = new OperacionesCalculadora.Acciones.ResolverPoligono();
+            resolver.Resolver(6, 12, "A");
         }
     }
 }
