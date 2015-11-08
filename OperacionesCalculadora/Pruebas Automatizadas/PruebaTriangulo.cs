@@ -9,20 +9,13 @@ namespace Pruebas_Automatizadas
         [TestMethod]
         public void TrianguloInvalido()
         {
-            double primerlado = 5;
-            double segundolado = 5;
-            double tercerlado = 19;
+            double lado1 = 5;
+            double lado2 = 5;
+            double lado3 = 19;
+            OperacionesCalculadora.Validaciones.ValidarTriangulo validar = new OperacionesCalculadora.Validaciones.ValidarTriangulo();
 
+            Assert.IsFalse(validar.Validar(lado1, lado2, lado3));
 
-            ResolverEcuacionCuadratica ecuacionCuadratica = new ResolverEcuacionCuadratica();
-            // invoque al método correspondiente
-            ecuacionCuadratica.ResolverLaEcuacionCuadratica(primerNumero,
-                        segundoNumero, tercerNumero, ref primeraRaizReal, ref segundaRaizReal);
-
-            Assert.IsTrue((primeraRaizEsperada == primeraRaizReal) ||
-                          (primeraRaizEsperada == segundaRaizReal));
-            Assert.IsTrue((segundaRaizEsperada == primeraRaizReal) ||
-                          (segundaRaizEsperada == segundaRaizReal));
         }
     }
 }
