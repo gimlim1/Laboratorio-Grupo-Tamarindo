@@ -41,6 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Acciones\ResolverCuadraticos.cs" />
+    <Compile Include="Acciones\ResolverPoligono.cs" />
     <Compile Include="Acciones\ResolverTriangulo.cs" />
     <Compile Include="Especificaciones\Poligono.cs" />
     <Compile Include="Especificaciones\Trapecio.cs" />
@@ -51,6 +52,7 @@
     <Compile Include="Especificaciones\Rectangulo.cs" />
     <Compile Include="Especificaciones\Rombo.cs" />
     <Compile Include="Especificaciones\Romboide.cs" />
+    <Compile Include="Validaciones\ValidarPoligono.cs" />
     <Compile Include="Validaciones\ValidarTriangulo.cs" />
   </ItemGroup>
   <ItemGroup />
