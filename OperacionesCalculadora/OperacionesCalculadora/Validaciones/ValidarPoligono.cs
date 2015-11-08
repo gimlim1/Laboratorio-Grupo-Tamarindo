@@ -18,5 +18,13 @@ namespace OperacionesCalculadora.Validaciones
             return Validacion;
 
         }
+        public Boolean ValidarCero(double lados,double Lvalor)
+        {
+            if (lados>0 && Lvalor>0)
+            {
+                return true;
+            }
+            return false;
+        }
     }
 }

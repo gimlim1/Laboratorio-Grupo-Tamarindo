@@ -52,6 +52,7 @@
     <Compile Include="Especificaciones\Rectangulo.cs" />
     <Compile Include="Especificaciones\Rombo.cs" />
     <Compile Include="Especificaciones\Romboide.cs" />
+    <Compile Include="Validaciones\ValidacionesCuadraticos.cs" />
     <Compile Include="Validaciones\ValidarPoligono.cs" />
     <Compile Include="Validaciones\ValidarTriangulo.cs" />
   </ItemGroup>
