@@ -9,6 +9,7 @@ namespace Pruebas_Automatizadas
         [TestMethod]
         public void TrianguloInvalido()
         {
+            //pruebas 
             double lado1 = 5;
             double lado2 = 5;
             double lado3 = 19;
