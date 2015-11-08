@@ -22,7 +22,8 @@ namespace OperacionesCalculadora
         {
             
             bool validacion = validar.Validacionlados(lados);
-            if (validacion == true) {
+            Validaciones.ValidarPoligono validar0 = new Validaciones.ValidarPoligono();
+            if (validacion == true && validar0.ValidarCero(lados,Lvalor) == true) {
                 return lados * Lvalor;
             }
             return 0;
@@ -33,7 +34,8 @@ namespace OperacionesCalculadora
         {
 
             bool validacion = validar.Validacionlados(lados);
-            if (validacion == true)
+            Validaciones.ValidarPoligono validar0 = new Validaciones.ValidarPoligono();
+            if (validacion == true && validar0.ValidarCero(lados, Lvalor) == true)
             {
                 double anguloC = (360 / lados)/2;
                 const double DTR = Math.PI / 180.0;
