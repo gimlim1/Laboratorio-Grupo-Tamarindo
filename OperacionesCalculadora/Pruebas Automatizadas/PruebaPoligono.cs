@@ -24,7 +24,8 @@ namespace Pruebas_Automatizadas
         {
             double lados = 6;
             double Lvalor = 4;
-            double areacorrecta = 41.57;
+            double areacorrecta = 41.569219381653056;
+
             double areaprueba;
             double perimetrocorrecto = 24;
             double perimetroprueba;

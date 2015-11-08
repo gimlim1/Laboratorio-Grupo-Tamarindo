@@ -23,14 +23,14 @@ namespace Pruebas_Automatizadas
             Assert.IsTrue(resolver.Resolver(lado1,lado2,altura,figura,Operacion)==0);
         }
 
-        // prueba cuando un lado es igual a cero
+        // prueba cuando un altura es igual a cero
         [TestMethod]
         public void Pruebaigualcero()
         {
 
             double lado1 = 1;
-            double lado2 = 0;
-            double altura = 2;
+            double lado2 = 2;
+            double altura = 0;
             int figura = 1;
             string Operacion = "A";
 
