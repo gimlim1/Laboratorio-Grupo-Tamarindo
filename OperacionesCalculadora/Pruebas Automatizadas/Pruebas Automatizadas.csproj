@@ -50,6 +50,8 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="PruebaCuadraticos.cs" />
+    <Compile Include="PruebaPoligono.cs" />
     <Compile Include="PruebaTriangulo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
