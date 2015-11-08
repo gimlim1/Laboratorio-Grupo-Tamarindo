@@ -56,7 +56,7 @@ namespace Pruebas_Automatizadas
 
         //Prueba correcta de resolver el cuadratico: rombo, se va resolver el area
         [TestMethod]
-        public void PruebaCorrecta()
+        public void PruebaCorrectaRombo()
         {
 
             double diagonalmenor = 4;
@@ -69,6 +69,21 @@ namespace Pruebas_Automatizadas
             OperacionesCalculadora.Acciones.ResolverCuadraticos resolver = new OperacionesCalculadora.Acciones.ResolverCuadraticos();
             area = resolver.Resolver(diagonalmenor, diagonalmayor, 0, figura, Operacion);
             Assert.IsTrue(area==areaesperada);
+        }
+        //Prueba correcta de resolver el cuadratico: trapecio, se va resolver el area
+        [TestMethod]
+        public void PruebaCorrectaPerimetroTrapecio()
+        {
+
+            double lado1 = 10;
+            double lado2 = 4;
+            double perimetro = 0;
+            double perimetroesperado = 23;
+            int figura = 6;
+            string Operacion = "P";
+            OperacionesCalculadora.Acciones.ResolverCuadraticos resolver = new OperacionesCalculadora.Acciones.ResolverCuadraticos();
+            perimetro = resolver.Resolver(lado1, lado2, 0, figura, Operacion);
+            Assert.IsTrue(perimetro == perimetroesperado);
         }
 
     }
