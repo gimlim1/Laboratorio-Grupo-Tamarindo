@@ -8,9 +8,10 @@ namespace OperacionesCalculadora
 {
     public class Cuadrado
     {
-
+        
         public double ResolverArea(double lado1)
         {
+       
             return lado1*lado1;
         }
 
