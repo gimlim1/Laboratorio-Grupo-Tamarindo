@@ -9,13 +9,10 @@ namespace Pruebas_Automatizadas
         [TestMethod]
         public void TrianguloInvalido()
         {
-            double primerlado = -1;
-            double segundolado = 2;
-            double tercerlado = 3;
-            double primeraRaizReal = 0;
-            double segundaRaizReal = 0;
-            double primeraRaizEsperada = 3;
-            double segundaRaizEsperada = -1;
+            double primerlado = 5;
+            double segundolado = 5;
+            double tercerlado = 19;
+
 
             ResolverEcuacionCuadratica ecuacionCuadratica = new ResolverEcuacionCuadratica();
             // invoque al método correspondiente
