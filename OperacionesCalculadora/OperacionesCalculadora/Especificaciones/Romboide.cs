@@ -12,15 +12,25 @@ namespace OperacionesCalculadora
         public double ResolverArea(double lado1, double lado2)
         {
             // base * ancho
-            return lado1 * lado2;
+            Validaciones.ValidacionesCuadraticos validar = new Validaciones.ValidacionesCuadraticos();
+            if (validar.Cuadraticocondos(lado1, lado2))
+            {
+                return lado1 * lado2;
+            }
+
+            return 0;
         }
 
         public double ResolverPerimetro(double lado1,double altura)
         {
 
             // 2 * (b + h)
-            return 2 * (lado1 + altura);
-
+            Validaciones.ValidacionesCuadraticos validar = new Validaciones.ValidacionesCuadraticos();
+            if (validar.Cuadraticocondos(lado1, altura))
+            {
+                return 2 * (lado1 + altura);
+            }
+            return 0;
         }
     }
 }
