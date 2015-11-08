@@ -10,13 +10,22 @@ namespace OperacionesCalculadora
     {
 
         public double ResolverArea(double lado1,double lado2){
-            return lado1 * lado2 / 2; 
+            Validaciones.ValidacionesCuadraticos validar = new Validaciones.ValidacionesCuadraticos();
+            if (validar.Cuadraticocondos(lado1, lado2))
+            {
+                return lado1 * lado2 / 2;
+            }
+            return 0;
         }
 
         public double ResolverPerimetro(double altura)
         {
-            return  4 * altura;
-
+            Validaciones.ValidacionesCuadraticos validar = new Validaciones.ValidacionesCuadraticos();
+            if (validar.Cuadraticoconlado(altura))
+            {
+                return  4 * altura;
+            }
+            return 0;
         }
   }
 }

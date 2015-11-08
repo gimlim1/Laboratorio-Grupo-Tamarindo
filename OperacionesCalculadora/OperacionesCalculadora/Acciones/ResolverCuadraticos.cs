@@ -10,10 +10,7 @@ namespace OperacionesCalculadora.Acciones
     {
         public double Resolver(double lado1, double lado2 , double altura,int figura,string Operacion)
         {
-            Validaciones.ValidacionesCuadraticos validar = new Validaciones.ValidacionesCuadraticos();
-
-            if (validar.Cuadratico(lado1, lado2, altura) == true)
-            {
+           
                 switch (figura)
                 {
                     //paralelogramo
@@ -109,11 +106,7 @@ namespace OperacionesCalculadora.Acciones
                         break;
 
                 }
-            }
-            else { Exception ex = new (string.Format("Los lados o la altura son menores a cero"));
-                throw ex;
-            }
-
+            
             return 0;
         }
     }
